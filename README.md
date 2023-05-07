@@ -3,13 +3,13 @@
 
 ## Warehouse Listing Description
 
-Items in the Main_Library Warehouse are are revision controlled and assigned a part number. The part number can also be used to figure out where the item is placed.
+Items in the Main_Library Warehouse (A00) are are revision controlled and assigned a part number. The part number can also be used to figure out where the item is placed.
 
 ### Part Number Breakdown:  
 
 |  Warehouse  |   Section   |    Shelf    |     |    Crate   |  Item Number |   |   Version  | 
 |-------------|-------------|-------------|-----|------------|--------------|---|------------|
-|    _ _ _    |   _ _ _     |    _ _ _    |  @  |   _ _ _    |    _ _ _ _   | - |      _     |
+|    A 0 0    |   _ _ _     |    _ _ _    |  @  |   _ _ _    |    _ _ _ _   | - |      _     |
 | (3 adigits) | (3 adigits) | (3 adigits) |     | (3 leters) |  (4 digits)  |   | (1 letter) | 
 
 ### Part Categories, Subclasses and IDs:
