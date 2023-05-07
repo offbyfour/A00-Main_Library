@@ -20,12 +20,11 @@ Items in the Main_Library Warehouse (A00) are are revision controlled and assign
 
 
 ### Part Numbering and Versions:
-- Crate              AAA - ZZZ
-- Item Number        1000 - 9999  
-&nbsp;&nbsp;&nbsp;&nbsp;used to count items in crate, excluding the following defaults:  
+- Crate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AAA - ZZZ
+- Item Number:&nbsp;&nbsp;&nbsp;1000 - 9999    
 &nbsp;&nbsp;&nbsp;&nbsp;>Crate Manifest:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000  
 &nbsp;&nbsp;&nbsp;&nbsp;>Revision History:&nbsp;&nbsp;&nbsp;9999  
-- Versions: A - Z  
+- Versions:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A - Z  
 
 
 
