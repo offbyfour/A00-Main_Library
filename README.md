@@ -1,40 +1,42 @@
 # Main_Library
 
 
-Warehouse Listing Description
-Part Number Breakdown: 
-     _ _ _       _ _ _           _ _ _        @      _ _ _          _ _ _ _   -     _ 
-   Warehouse     Section         Shelf               Crate       Item Number      Version
-  (3 adigits)  (3 adigits)    (3 adigits)         (3 Leters)      (4 digits)     (1 letter)
+## Warehouse Listing Description
 
-Part Categories, Subclasses and IDs:
-Warehouse: A00 - Z99
-Section:   A00 - Z99
-Shelf:     A00 - Z99
+Items in the Main_Library Warehouse are are revision controlled and assigned a part number. The part number can also be used to figure out where the item is placed.
 
+### Part Number Breakdown:  
 
+|  Warehouse  |   Section   |    Shelf    |     |    Crate   |  Item Number |   |   Version  | 
+|-------------|-------------|-------------|-----|------------|--------------|---|------------|
+|    _ _ _    |   _ _ _     |    _ _ _    |  @  |   _ _ _    |    _ _ _ _   | - |      _     |
+| (3 adigits) | (3 adigits) | (3 adigits) |     | (3 leters) |  (4 digits)  |   | (1 letter) | 
 
-Part Numbering and Versions:
-Crate              AAA - ZZZ
-Item Number        1000 - 9999
-  used to count items in crate:
-  > Library Entry                1000
-  > Manifest                     1001
-  > Revision History             9999
-Versions: A - Z
+### Part Categories, Subclasses and IDs:
+1. Warehouse:&nbsp;A00 - Z99
+1. Section:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A00 - Z99
+1. Shelf:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A00 - Z99
 
 
 
+### Part Numbering and Versions:
+- Crate              AAA - ZZZ
+- Item Number        1000 - 9999  
+&nbsp;&nbsp;&nbsp;&nbsp;used to count items in crate, excluding the following defaults:  
+&nbsp;&nbsp;&nbsp;&nbsp;>Crate Manifest:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000  
+&nbsp;&nbsp;&nbsp;&nbsp;>Revision History:&nbsp;&nbsp;&nbsp;9999  
+- Versions: A - Z  
 
-Warehouse Hierarchy
-Warehouse (s)
-  |
-  L _ _  Section (s)
-  |       L _ _  Shelf (s)
-  |           	  L _ _ Crate (s)
-  |           	 	       L _ _  Item (s)
-  |                      L_ _ Manifest 
-  |                      L _ _Revision History
-  |
-  L _ _  Change History
 
+
+
+## Warehouse Hierarchy
+- Warehouse (s)   
+     - Section (s)  
+          - Shelf (s)  
+               - Crate (s)  
+                    - Item (s)  
+                    - Crate Manifest   
+                    - Revision History  
+     - Warehouse Manifest  
+     - Change History  
